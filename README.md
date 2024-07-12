@@ -4,6 +4,11 @@
 GITHUB: https://github.com/pax91/ip-manager
 
 ### Installation
+Download the files from GITHUB repo
+```
+https://github.com/pax91/ip-manager/archive/refs/heads/main.zip
+```
+Extract all from ZIP and execute ip-manager.bat from CMD.
 Download and execute the .bat file as Administrator, the script will create a new Templates folder in running Directory.
 If you want to run directly the script from the CMD, just copy the .bat file into System32 Folder and call ip_manager.bat from CMD.
 
