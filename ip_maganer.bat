@@ -63,6 +63,7 @@ setlocal
 		echo GW=192.168.0.1
 		echo -------------------------------
 		echo GITHUB: https://github.com/pax91/ip-manager 
+		echo README: https://github.com/pax91/ip-manager/blob/main/README.md
 	) else if %userinput%==9 (
 		goto menu
 	)
@@ -78,7 +79,7 @@ setlocal
 	echo
 	echo ======================================================================================
 	echo                             %TITOLO%       
-	echo                             Made by PAX - Luca Passoni
+	echo                            © Made by PAX - Luca Passoni
 	echo ======================================================================================	
 	call :get_interface_settings %INTNAME%	
 	echo     INTERFACE NAME  	: %_return1%
